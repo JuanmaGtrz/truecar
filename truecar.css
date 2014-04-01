@@ -1,0 +1,311 @@
+/*
+    Document   : truecar/truecar.css
+    Created on : 2014-03-26 05:32 PM
+    Author     : Juanma
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+
+body{
+    width:100%;
+    font-family:"Helvetica";
+    
+}
+
+a{
+    text-decoration:none;
+}
+
+#pag1{
+    width:100%;
+    background: url(img/fondo1.jpg) no-repeat;
+    background-size:100% 100%;
+    text-shadow:none;
+}
+
+#cabecera1{
+    background-color:#111144;
+    color:white;
+    border:0px;
+    text-shadow:none;
+}
+
+#cabecera1 h1{
+    font-weight:100;
+    font-size:1.5em;
+    font-weight:normal;
+}
+
+#cabecera1 h1 span{
+    font-weight:bold;
+    text-shadow:none;
+}
+
+#btnMenu{
+    border:0px;
+    height:35px;
+    background-color:#111144;
+    padding:12px;
+    padding-bottom:4px;
+}
+
+#signin{
+    background-color:#111144;
+    color:white;
+    border:0px;
+    margin-top:0px;
+    text-shadow:none;
+    font-size:1.2em;
+    font-weight:normal;
+}
+
+#consejo{
+    padding-left:9%;
+    padding-top:3%;
+    margin-left:auto;
+    color:white;
+}
+
+#consejo h2{
+    font-weight:normal;
+    font-size:1.5em;
+    padding-bottom:0.2em;
+}
+
+#lista{
+    padding-top:5%;
+    margin-left:8%;
+    border:0px;
+    box-shadow:none;
+    width:85%;
+}
+
+#lista li{
+    
+    
+}
+
+#lista a{
+    font-size:1.3em;
+    background-color:white;
+    font-weight:normal;
+    padding:3%;
+    padding-left:5%;
+}
+
+#liZip{
+   
+   padding-left:4%;
+   padding-right:4%;
+}
+
+
+#btnNext{
+    width:74%;    
+    margin-left:8%;
+    background-color:#FF6900;
+    color:white;
+    border-radius: 5px 5px 5px 5px;
+    border:0px;
+    font-weight:normal;
+    font-size:1.3em;
+    text-shadow:none;
+    padding-top:17px;
+    padding-bottom:17px;
+}
+
+#rejilla{
+    margin:30px;
+    margin-top:5%;
+}
+
+#how{
+    border: 0px;
+    border-radius: 5px 5px 5px 5px;
+    background:rgba(100,100,240,0.8);
+    color:white;
+    padding:10px;
+    text-align:center;
+    font-size:1.4em;
+    font-weight:normal;
+    width:190px;
+}
+
+#pie{
+    border:0px;
+}
+
+
+
+#pag2{
+    width:100%;
+    background-color:white;
+    
+    text-shadow:none;
+}
+
+#cabecera2{
+    background-color:#111144;
+    color:white;
+    border:0px;
+    text-shadow:none;
+}
+
+#cabecera2 h1{
+    font-weight:100;
+    font-size:1.5em;
+    font-weight:normal;
+}
+
+#btnhome{
+    background-color:#111144;
+    color:white;
+    border:0px;
+    margin-top:0px;
+    text-shadow:none;
+    font-size:2.0em;
+    font-weight:normal;
+    padding-left:10px;
+}
+
+
+#coche-precio{
+    padding:6%;    
+    padding-top:6%;
+    border:0px;
+    background-color:white;
+    text-align:left;
+}
+
+#coche-precio:hover{
+    border:0px;
+    background-color:white;
+}
+
+#coche{
+    width:25%;
+    float:left;   
+    padding-right:1%;
+}
+
+#precio{
+    padding-top:2%;
+    padding-right:6%;
+    float:right;
+    
+}
+
+#modelo{
+    font-size:1.3em;
+    font-weight:bold;
+}
+
+#caract{
+    font-size:1.2em;
+    font-weight:normal;
+    color:#aaaaaa;
+}
+
+#rejilla2{
+    text-align:center;
+    color:blue;
+    background-color:#f2f2f2;
+    background: linear-gradient(white,#f0f0f0);
+}
+
+#a2izq{
+    border: 2px solid #dddddd;
+    border-left:0px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+
+#a2dcha{
+    border: 2px solid #dddddd;
+    border-left:0px;
+    border-right:0px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#rejilla2 a{
+    text-decoration:none;
+    color:#5577aa;
+    font-size:1.1em;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#rejilla3{
+    padding-top:8%;
+    padding-bottom:8%;
+}
+
+#rejilla3a{
+    padding-left:4%;
+}
+
+#b3izq{
+    padding-left:4%;   
+}
+
+#b3dcha{
+    padding-left:9%;
+}
+
+.estimated{
+    color:#aaaaaa;
+    font-size:0.7em;
+}
+
+.parr2{
+    color:#5555aa;
+    font-size:0.6em;
+    font-weight:900;
+}
+
+#car{
+    font-weight:normal;
+}
+
+.precio{
+    font-size:1.0em;
+    color:#7777ff;
+    font-weight:bold;
+    padding-top:1%;
+}
+
+.precioTC{
+    font-size:1.5em;
+    color:#556699;
+    font-weight:bold;
+    padding-top:1%;
+}
+
+#mo{
+    font-size:0.6em;
+}
+
+#resumen{
+    background-color:#333388;
+    color:white;
+    padding:5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    font-size:1em;
+    text-align:justify;
+}
+
+#verde{
+    color:#55dd55;
+    font-weight:bold;
+    font-size:1.0em;
+}
